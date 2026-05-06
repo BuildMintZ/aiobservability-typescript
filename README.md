@@ -109,7 +109,8 @@ app.use(aiObservabilityMiddleware(client));
 
 | Method | Description |
 |--------|-------------|
-| oute(prompt, preference?) | Route a prompt to the best model |
+| 
+oute(prompt, preference?) | Route a prompt to the best model |
 | 	rack(usage) | Track LLM usage (batched, non-blocking) |
 | getModels(provider?) | Get available AI models |
 | compareModels(prompt, models?) | Compare models side-by-side |
@@ -158,4 +159,4 @@ Contributions welcome! Open an issue or pull request on [GitHub](https://github.
 
 ## 📄 License
 
-MIT © [Cyprain Chidozie](https://github.com/BuildMintZ)
+MIT © [BuildMintZ Cyprain Chidozie](https://github.com/BuildMintZ)
