@@ -1,0 +1,49 @@
+{
+  "name": "freelanceflow",
+  "version": "1.0.0",
+  "description": "JavaScript/TypeScript SDK for AI Observability - Monitor LLM usage across 21+ models with smart routing, cost tracking, and budget management",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "observability",
+    "cost-tracking",
+    "model-routing",
+    "openai",
+    "groq",
+    "google-gemini"
+  ],
+  "author": "Cyprain Chidozie",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BuildMintZ/aiobservability-python"
+  },
+  "homepage": "https://ai-api.usefreelanceflow.com/docs",
+  "bugs": {
+    "url": "https://github.com/BuildMintZ/aiobservability-python/issues"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
