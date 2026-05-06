@@ -1,4 +1,4 @@
-﻿# AI Observability TypeScript SDK
+# AI Observability TypeScript SDK
 
 [![npm version](https://badge.fury.io/js/freelanceflow.svg)](https://www.npmjs.com/package/freelanceflow)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
@@ -32,7 +32,7 @@ pnpm add freelanceflow
 
 ## 🚀 Quick Start
 
-	ypescript
+	Typescript
 import { AIObservability } from 'freelanceflow';
 
 const client = new AIObservability({ apiKey: 'your_api_key' });
@@ -49,7 +49,7 @@ console.log('Latency:', response.latencyMs + 'ms');
 
 ### Track LLM Usage
 
-	ypescript
+	Typescript
 await client.track({
   userId: 'user-123',
   provider: 'groq',
@@ -65,7 +65,7 @@ await client.track({
 
 ### Compare Models
 
-	ypescript
+	Typescript
 const comparison = await client.compareModels('What is Python?');
 comparison.results.forEach(model => {
   console.log(': v1.0.0{model.cost} — ms');
@@ -74,14 +74,14 @@ comparison.results.forEach(model => {
 
 ### Get Usage History
 
-	ypescript
+	Typescript
 const history = await client.getUsageHistory('my-tenant', 100);
 console.log('Found  records');
 
 
 ### Manage Alerts
 
-	ypescript
+	Typescript
 // Create an alert
 await client.createAlert({
   name: 'Budget Alert',
@@ -98,7 +98,7 @@ console.log(alerts);
 
 ### Express Middleware
 
-	ypescript
+	Typescript
 import { AIObservability, aiObservabilityMiddleware } from 'freelanceflow';
 
 const client = new AIObservability({ apiKey: 'your_key' });
@@ -127,7 +127,7 @@ oute(prompt, preference?) | Route a prompt to the best model |
 
 Get your free API key at the [AI Observability Dashboard](https://ai-api.usefreelanceflow.com).
 
-	ypescript
+	Typescript
 const client = new AIObservability({
   apiKey: 'your_api_key',
   endpoint: 'https://ai-api.usefreelanceflow.com', // Optional
