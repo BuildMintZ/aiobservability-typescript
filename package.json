@@ -1,6 +1,6 @@
 {
   "name": "freelanceflow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript/TypeScript SDK for AI Observability - Monitor LLM usage across 21+ models with smart routing, cost tracking, and budget management",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
